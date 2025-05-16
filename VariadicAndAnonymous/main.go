@@ -10,7 +10,7 @@ func main() {
 func add( G ... int) int {
 	Sum := 0
 	for _  , val := range G{
-		Sum := Sum
+		//Sum := Sum
 		Sum = Sum + val
 
 
