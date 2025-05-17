@@ -10,6 +10,8 @@ func main() {
 	fmt.Println("Adding value  =",add(a , b))
 	fmt.Println("Subtraction value = ",sub(a , b))
 	fmt.Println("Multipal  value = ",mul(a , b))
+	fmt.Println("Multipal  value = ",div(a , b))
+
 
 
 }
@@ -22,6 +24,9 @@ func sub(e, f int) int {
 	return e - f
 }
 func mul(e, f int) int {
+	return e * f
+}
+func div(e, f int) int {
 	return e * f
 }
 // package main

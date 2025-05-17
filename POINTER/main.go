@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-func changeNum(num int) {
+func GAURAV(num int) {
 	num = 10
-	fmt.Println("IN CHANGENUM ",num)
+	fmt.Println("IN CHANGENUM ", num)
 }
 
 func main() {
-	num := 1
-	fmt.Println("BEFORE CHANGENUM ",num)
-	changeNum(num)
+	num := 100
+	fmt.Println("BEFORE CHANGENUM ", num)
+	GAURAV(num)
 
 }
