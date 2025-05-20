@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+)
 
 type Student struct {
 	Name       string
@@ -13,17 +16,23 @@ type Student struct {
 }
 
 func main() {
-	var Gaurav Student
+	var Saurav Student
 	//Gaurav.class = 12
 
 	//Gaurav.Name = "Gaurav Singh"
-	Shiva := Student{
+	Gaurav := Student{
 		Name:       "Gaurav Singh",
 		Age:        20,
 		RollNumber: 12345.67,
+		SchoolName: "BHU ",
+		Email: "gauravsingh@gmail",
+		Address: "Uttar Pradesh (Varanasi)",
+		MobilNo: 9384383733,
 		
 	}
-	fmt.Println(" Student Data ....", Shiva)
-	fmt.Println(" Student Data ....", Gaurav)
+	
+	fmt.Println("Program start",Saurav)
+	fmt.Println(" Student Data ....",Gaurav)
+	
 
 }
