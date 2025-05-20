@@ -1,3 +1,6 @@
+//An array in Go is a fixed-size collection of elements of the same data type.
+//यह एक array है जिसका नाम numbers है और इसमें 5 integer values रखी जा सकती हैं।
+   //var numbers [5]int
 package main
 
 import "fmt"

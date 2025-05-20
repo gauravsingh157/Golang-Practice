@@ -5,7 +5,7 @@ import "fmt"
 
 func Gaurav() func() int {
 
-	i := 0
+	i := 10000
 	return func ()int  {
 		i ++
 		return i
